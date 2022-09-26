@@ -1,0 +1,197 @@
+@media screen and (min-width: 768px) {
+    /* PC用のスタイルを指定する */
+ 
+
+
+body{
+    width: 960px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0 auto;
+    height: 1220px;
+  
+}  
+
+header{
+    display: flex;justify-content: space-between;
+    padding: 0 100px 0 100px;
+    margin:  30px auto 30px auto;
+}
+
+
+header > div >a{font-size: 34px;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+
+}
+
+#profile{
+    border: 1px black solid;
+}
+#mainimg {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+#about{
+    margin: 0 auto 0 auto;
+    
+}
+.title{
+    text-align: center;
+    font-size: 34px;
+}
+
+h3{
+    font-size: 24px;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.list > p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0%;
+  font-size: 18px;
+}
+#aboutflex{
+    display: flex;
+}
+
+#face{
+    margin-left: 180px;
+}
+#aboutright{
+    margin-left: 30px;
+}
+
+ul{
+    margin: 0%;
+}
+
+#works{
+    margin: 60px auto 80px auto;
+}
+
+#photos{
+    display: flex;
+}
+
+.imgbox1{
+    margin-left: 180px;
+}
+
+.imgbox2{
+    margin: 0 30px 0 30px;
+}
+
+.worksp2{
+    display: none;
+}
+
+.worksp > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer > p{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+}
+
+@media screen and (max-width: 767px) {
+    /* スマートフォン用のスタイルを指定する */
+  
+ body{
+    min-width: 375px;
+    margin: 0;
+   
+   
+ }
+
+ header{
+    width: 100%;
+    display: flex;justify-content: space-between;
+    height: 50px;
+    margin-top: 10px;
+   
+}
+
+
+ header > div >a{font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+   
+
+}
+
+
+#profile{
+    border: 1px black solid;
+    padding: 10px;
+}
+
+
+#img {
+    width: 100%;
+ 
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+}
+#about{
+    margin: 0 20px 0 20px;
+    
+}
+#aboutflex{
+    display: flex;
+}
+
+#faceimg{width: 100px;
+    height: 100px;
+    
+}
+
+.list > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+    font-size: 10px;
+  }
+  #name{
+    margin: 0%;
+  }
+ 
+  #works{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    
+    
+  }
+  .worksimg{
+    width: 80%;
+
+ 
+  }
+.imgbox1 , .imgbox2 , .imgbox3{
+    text-align: center;
+}
+  .worksp{
+    display: none;
+  }
+
+  .worksp2{
+    font-size: 10px;
+  }
+
+  
+footer{
+    text-align: center;
+    font-size: 8px;
+    margin-top: 20px;
+}
+
+  }
